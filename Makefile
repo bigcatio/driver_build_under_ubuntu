@@ -1,4 +1,4 @@
-obj-m += char_hello.o dev_attr_file.o dev_attr_group.o
+obj-m += char_hello.o dev_attr_file.o dev_attr_group.o module_param.o
 
 CURRENT_PATH:=$(shell pwd)
 LINUX_KERNEL_PATH:=/lib/modules/$(shell uname -r)/build
